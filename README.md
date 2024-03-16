@@ -26,6 +26,8 @@
 
 При запуске `main.py` будут обучаться две модели: SimpleNN и DropoutBatchNormNN, их лоссы будут отображены на графиках. После обучения моделей будут выведены их метрики (accuracy, precision, recall и f1score) на датасэте MNIST.
 
+Для изменения количества эпох зайдите в файл utils.py и найдите там комментарий, где показывается что надо изменить.
+
 
 ============================
 
@@ -55,3 +57,5 @@ The project uses the following libraries to run:
 ## Start the project
 
 When `main.py` is started, two models will be trained: SimpleNN and DropoutBatchNormNNN, their lots will be displayed on the graphs. After training the models, their metrics (accuracy, precision, recall and f1score) will be displayed on the MNIST dataset.
+
+To change the number of epochs, go to the utils.py file and find a comment there that shows what needs to be changed.
