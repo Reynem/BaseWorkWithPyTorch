@@ -27,6 +27,8 @@
 При запуске `main.py` будут обучаться две модели: SimpleNN и DropoutBatchNormNN, их лоссы будут отображены на графиках. После обучения моделей будут выведены их метрики (accuracy, precision, recall и f1score) на датасэте MNIST.
 
 
+============================
+
 # README in English
 
 ## MNIST Neural Classifier
