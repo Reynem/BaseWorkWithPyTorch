@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
+
+# Количество эпох менять вот здесь/Change the number of epochs heeeeeeeere ↓
 def train_with_plot(model, train_loader, criterion, optimizer, num_epochs=11):
     train_loss_hist = []
     model.train()
